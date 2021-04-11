@@ -1,4 +1,10 @@
 import React, { Component } from 'react';
+import img_resturantManager from './images/projects/restaurant_dash.jpg';
+import img_financialManager from './images/projects/finacesApp.png';
+import img_snakeGame from './images/projects/snakeGame.png';
+import img_carParking from './images/projects/carParkingApp.jpg';
+import img_softwareManager from './images/projects/software.png';
+import img_faceRecognition from './images/projects/smartBrainApp.png';
 
 export default class Projects extends Component {
   render() {
@@ -18,82 +24,128 @@ export default class Projects extends Component {
             </p>
           </div>
           <div class="flex flex-wrap -m-4">
-            <div class="xl:w-1/4 md:w-1/2 p-4">
+            <a
+              href="https://github.com/vidalocapt/projeto"
+              class="xl:w-1/4 md:w-1/2 p-4"
+            >
               <div class="bg-gray-100 p-6 rounded-lg">
                 <img
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/720x400"
+                  src={img_resturantManager}
                   alt="content"
                 />
-                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                  SUBTITLE
+                <h3 class="tracking-widest text-indigo-500 text-sm font-medium title-font">
+                  Restaurant Manager
                 </h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                  Chichen Itza
+                  Technologies used:
                 </h2>
                 <p class="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waistcoat.
-                  Distillery hexagon disrupt edison bulbche.
+                  PHP, LARAVEL, VUEJS, WEBSOCKETS
                 </p>
               </div>
-            </div>
-            <div class="xl:w-1/4 md:w-1/2 p-4">
+            </a>
+            <a
+              href="https://github.com/vidalocapt/Projeto-Ainet"
+              class="xl:w-1/4 md:w-1/2 p-4"
+            >
               <div class="bg-gray-100 p-6 rounded-lg">
                 <img
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/721x401"
+                  src={img_financialManager}
                   alt="content"
                 />
-                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                  SUBTITLE
+                <h3 class="tracking-widest text-indigo-500 text-sm font-medium title-font">
+                  FINANCIAL Manager
                 </h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                  Colosseum Roma
+                  Technologies used:
                 </h2>
-                <p class="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waistcoat.
-                  Distillery hexagon disrupt edison bulbche.
-                </p>
+                <p class="leading-relaxed text-base">PHP, LARAVEL, BOOTSTRAP</p>
               </div>
-            </div>
-            <div class="xl:w-1/4 md:w-1/2 p-4">
+            </a>
+            <a
+              href="https://github.com/vidalocapt/IAProject"
+              class="xl:w-1/4 md:w-1/2 p-4"
+            >
               <div class="bg-gray-100 p-6 rounded-lg">
                 <img
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/722x402"
+                  src={img_snakeGame}
                   alt="content"
                 />
-                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                  SUBTITLE
+                <h3 class="tracking-widest text-indigo-500 text-sm font-medium title-font">
+                  Smart Snake Game
                 </h3>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                  Great Pyramid of Giza
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-3">
+                  Technologies used:
                 </h2>
-                <p class="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waistcoat.
-                  Distillery hexagon disrupt edison bulbche.
-                </p>
+                <p class="leading-relaxed text-base">JAVA</p>
+                <p class="leading-relaxed text-base">GENETIC ALGORITHMS</p>
+                <p class="leading-relaxed text-base">NEURAL NETWORKS</p>
               </div>
-            </div>
-            <div class="xl:w-1/4 md:w-1/2 p-4">
+            </a>
+            <a
+              href="https://github.com/vidalocapt/Taes_ParkingCarApp"
+              class="xl:w-1/4 md:w-1/2 p-4"
+            >
               <div class="bg-gray-100 p-6 rounded-lg">
                 <img
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/723x403"
+                  src={img_carParking}
                   alt="content"
                 />
-                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                  SUBTITLE
+                <h3 class="tracking-widest text-indigo-500 text-sm font-medium title-font">
+                  CAR PARKING
                 </h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                  San Francisco
+                  Technologies used:
+                </h2>
+                <p class="leading-relaxed text-base">ANDROID, FIREBASE, JIRA</p>
+              </div>
+            </a>
+            <a
+              href="https://github.com/vidalocapt/ProjectDAE"
+              class="xl:w-1/4 md:w-1/2 p-4"
+            >
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img
+                  class="h-40 rounded w-full object-cover object-center mb-6"
+                  src={img_softwareManager}
+                  alt="content"
+                />
+                <h3 class="tracking-widest text-indigo-500 text-sm font-medium title-font">
+                  SOFTWARE MANAGER
+                </h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+                  Technologies used:
                 </h2>
                 <p class="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waistcoat.
-                  Distillery hexagon disrupt edison bulbche.
+                  JAVA, GLASSFISH 5, NUXTJS, VUE
                 </p>
               </div>
-            </div>
+            </a>
+            <a
+              href="https://github.com/vidalocapt/smartBrainApp"
+              class="xl:w-1/4 md:w-1/2 p-4"
+            >
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img
+                  class="h-40 rounded w-full object-cover object-center mb-6"
+                  src={img_faceRecognition}
+                  alt="content"
+                />
+                <h3 class="tracking-widest text-indigo-500 text-sm font-medium title-font">
+                  FACE RECOGNITION
+                </h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+                  Technologies used:
+                </h2>
+                <p class="leading-relaxed text-base">
+                  REACTJS, EXPRESSJS, CLARIFAI API
+                </p>
+              </div>
+            </a>
           </div>
         </div>
       </section>
