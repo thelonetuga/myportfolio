@@ -9,7 +9,7 @@ import img_faceRecognition from './images/projects/smartBrainApp.png';
 export default class Projects extends Component {
   render() {
     return (
-      <section class="text-gray-600 body-font">
+      <section id="projects" class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap w-full mb-20">
             <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
@@ -40,9 +40,9 @@ export default class Projects extends Component {
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
                   Technologies used:
                 </h2>
-                <p class="leading-relaxed text-base">
-                  PHP, LARAVEL, VUEJS, WEBSOCKETS
-                </p>
+                <p class="leading-relaxed text-base">PHP</p>
+                <p class="leading-relaxed text-base">LARAVEL</p>
+                <p class="leading-relaxed text-base">VUEJS / WEBSOCKETS</p>
               </div>
             </a>
             <a
@@ -61,7 +61,9 @@ export default class Projects extends Component {
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
                   Technologies used:
                 </h2>
-                <p class="leading-relaxed text-base">PHP, LARAVEL, BOOTSTRAP</p>
+                <p class="leading-relaxed text-base">PHP</p>
+                <p class="leading-relaxed text-base">LARAVEL</p>
+                <p class="leading-relaxed text-base">BOOTSTRAP</p>
               </div>
             </a>
             <a
@@ -101,7 +103,9 @@ export default class Projects extends Component {
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
                   Technologies used:
                 </h2>
-                <p class="leading-relaxed text-base">ANDROID, FIREBASE, JIRA</p>
+                <p class="leading-relaxed text-base">ANDROID</p>
+                <p class="leading-relaxed text-base">FIREBASE</p>
+                <p class="leading-relaxed text-base">JIRA</p>
               </div>
             </a>
             <a
@@ -120,9 +124,9 @@ export default class Projects extends Component {
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
                   Technologies used:
                 </h2>
-                <p class="leading-relaxed text-base">
-                  JAVA, GLASSFISH 5, NUXTJS, VUE
-                </p>
+                <p class="leading-relaxed text-base">JAVA</p>
+                <p class="leading-relaxed text-base">GLASSFISH 5</p>
+                <p class="leading-relaxed text-base">NUXTJS</p>
               </div>
             </a>
             <a
@@ -141,9 +145,9 @@ export default class Projects extends Component {
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
                   Technologies used:
                 </h2>
-                <p class="leading-relaxed text-base">
-                  REACTJS, EXPRESSJS, CLARIFAI API
-                </p>
+                <p class="leading-relaxed text-base">EXPRESSJS</p>
+                <p class="leading-relaxed text-base">REACTJS</p>
+                <p class="leading-relaxed text-base">CLARIFAI API</p>
               </div>
             </a>
           </div>
