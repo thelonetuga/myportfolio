@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.66890953.chunk.css",
-    "main.js": "/myportfolio/static/js/main.be454a36.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.be454a36.chunk.js.map",
+    "main.js": "/myportfolio/static/js/main.e564f977.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.e564f977.chunk.js.map",
     "runtime-main.js": "/myportfolio/static/js/runtime-main.be23bd41.js",
     "runtime-main.js.map": "/myportfolio/static/js/runtime-main.be23bd41.js.map",
     "static/js/2.27079c18.chunk.js": "/myportfolio/static/js/2.27079c18.chunk.js",
@@ -20,26 +20,25 @@
     "static/media/6.98e3ab83.jpg": "/myportfolio/static/media/6.98e3ab83.jpg",
     "static/media/7.462c0e70.jpg": "/myportfolio/static/media/7.462c0e70.jpg",
     "static/media/8.89b2a464.jpg": "/myportfolio/static/media/8.89b2a464.jpg",
-    "static/media/c.7f58ab59.svg": "/myportfolio/static/media/c.7f58ab59.svg",
+    "static/media/c.7f58ab59.png": "/myportfolio/static/media/c.7f58ab59.png",
     "static/media/carParkingApp.ad22065b.jpg": "/myportfolio/static/media/carParkingApp.ad22065b.jpg",
     "static/media/finacesApp.0b83dd03.png": "/myportfolio/static/media/finacesApp.0b83dd03.png",
-    "static/media/java.7f7b1d06.svg": "/myportfolio/static/media/java.7f7b1d06.svg",
+    "static/media/java.7f7b1d06.png": "/myportfolio/static/media/java.7f7b1d06.png",
     "static/media/index.css": "/myportfolio/static/media/landingImage.758aa0be.jpg",
-    "static/media/laravel.279e3fcb.svg": "/myportfolio/static/media/laravel.279e3fcb.svg",
+    "static/media/laravel.279e3fcb.png": "/myportfolio/static/media/laravel.279e3fcb.png",
     "static/media/me.4a23d60e.jpg": "/myportfolio/static/media/me.4a23d60e.jpg",
-    "static/media/react.52610ecf.svg": "/myportfolio/static/media/react.52610ecf.svg",
+    "static/media/react.52610ecf.png": "/myportfolio/static/media/react.52610ecf.png",
     "static/media/restaurant_dash.865fc27b.jpg": "/myportfolio/static/media/restaurant_dash.865fc27b.jpg",
     "static/media/smartBrainApp.abe9acfc.png": "/myportfolio/static/media/smartBrainApp.abe9acfc.png",
     "static/media/snakeGame.7311ff84.png": "/myportfolio/static/media/snakeGame.7311ff84.png",
     "static/media/software.a9b998d1.png": "/myportfolio/static/media/software.a9b998d1.png",
-    "static/media/tailwindcss.68603ef4.svg": "/myportfolio/static/media/tailwindcss.68603ef4.svg",
-    "static/media/vue.b3eb5e3c.svg": "/myportfolio/static/media/vue.b3eb5e3c.svg",
+    "static/media/vue.b3eb5e3c.png": "/myportfolio/static/media/vue.b3eb5e3c.png",
     "static/media/youtube.831b32cf.svg": "/myportfolio/static/media/youtube.831b32cf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.be23bd41.js",
     "static/js/2.27079c18.chunk.js",
     "static/css/main.66890953.chunk.css",
-    "static/js/main.be454a36.chunk.js"
+    "static/js/main.e564f977.chunk.js"
   ]
 }
