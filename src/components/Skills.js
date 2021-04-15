@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import outsystems from './images/outsystems.png';
-import vueIcon from './images/vue.svg';
-import reactIcon from './images/react.svg';
-import cIcon from './images/c.svg';
-import laravel from './images/laravel.svg';
-import java from './images/java.svg';
+import vueIcon from './images/vue.png';
+import reactIcon from './images/react.png';
+import cIcon from './images/c.png';
+import laravel from './images/laravel.png';
+import java from './images/java.png';
 import tailwindcss from './images/tailwindcss.svg';
 export default class Skills extends Component {
   render() {
