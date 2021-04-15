@@ -1,19 +1,21 @@
 import React, { Component } from 'react';
 import { init } from 'ityped';
+import ytIcon from './images/icons/yt.png';
 
 export default class App extends Component {
   componentDidMount() {
     const hobbiesText = document.querySelector('#hobbiesText');
     init(hobbiesText, {
       showCursor: false,
-      strings: ['A Developer', 'Photographer', 'Content Creator.']
+      loop: true,
+      strings: ['Developer', 'Photographer', 'Content Creator.']
     });
   }
 
   render() {
     return (
       <div>
-        <main class="font-mono bg-blue-800 relative overflow-hidden h-screen">
+        <main class="font-mono bg-cover bg-fixed bg-landing-image relative overflow-hidden h-screen">
           <header class="sm:h-16 flex items-center z-30 w-full ">
             <div class="container mx-auto px-6 flex items-center justify-between">
               <div class="uppercase text-white font-black text-3xl flex items-center">
@@ -51,19 +53,19 @@ export default class App extends Component {
               </div>
             </div>
           </header>
-          <div class="flex h-full relative z-20 items-center">
-            <div class="container  mx-auto px-6 flex flex-col justify-between items-center relative py-4 ">
-              <div class="flex flex-col">
+          <div class="flex h-full  relative z-20 items-center">
+            <div class="container   mx-auto px-6 flex flex-col justify-between items-center relative py-4 ">
+              <div class="flex flex-col w-full">
                 <p class="text-3xl my-6 text-center text-white">
                   Hi, I&#x27;m Joao Marques 🤘
                 </p>
-                <div class="p-4">
+                <div class="h-24 p-4">
                   <h2
                     id="hobbiesText"
                     class="max-w-3xl text-5xl md:text-6xl font-bold mx-auto text-white text-center py-2"
                   ></h2>
                 </div>
-                <div class="flex items-center justify-center mt-4 p-6">
+                <div class="w-full flex items-center justify-evenly mt-4 p-6">
                   <a
                     class="text-white"
                     href="https://www.facebook.com/joao1marques/"
@@ -79,7 +81,10 @@ export default class App extends Component {
                       <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                     </svg>
                   </a>
-                  <a class="ml-3 text-white" href="https://twitter.com/home">
+                  <a
+                    class="ml-3 text-white"
+                    href="https://twitter.com/joaomarquescode"
+                  >
                     <svg
                       fill="currentColor"
                       stroke-linecap="round"
@@ -134,6 +139,12 @@ export default class App extends Component {
                       ></path>
                       <circle cx="4" cy="4" r="2" stroke="none"></circle>
                     </svg>
+                  </a>
+                  <a
+                    class="ml-3 text-black"
+                    href="https://www.youtube.com/channel/UCE4H4OvpcgXA-Lmw409Cg8A"
+                  >
+                    <img src={ytIcon} class="square-full w h-8 mx-auto" />
                   </a>
                 </div>
               </div>
