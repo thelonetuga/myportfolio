@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.66890953.chunk.css",
-    "main.js": "/myportfolio/static/js/main.e564f977.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.e564f977.chunk.js.map",
+    "main.js": "/myportfolio/static/js/main.f610b6d1.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.f610b6d1.chunk.js.map",
     "runtime-main.js": "/myportfolio/static/js/runtime-main.be23bd41.js",
     "runtime-main.js.map": "/myportfolio/static/js/runtime-main.be23bd41.js.map",
     "static/js/2.27079c18.chunk.js": "/myportfolio/static/js/2.27079c18.chunk.js",
@@ -32,6 +32,7 @@
     "static/media/smartBrainApp.abe9acfc.png": "/myportfolio/static/media/smartBrainApp.abe9acfc.png",
     "static/media/snakeGame.7311ff84.png": "/myportfolio/static/media/snakeGame.7311ff84.png",
     "static/media/software.a9b998d1.png": "/myportfolio/static/media/software.a9b998d1.png",
+    "static/media/tailwindcss.68603ef4.svg": "/myportfolio/static/media/tailwindcss.68603ef4.svg",
     "static/media/vue.b3eb5e3c.png": "/myportfolio/static/media/vue.b3eb5e3c.png",
     "static/media/youtube.831b32cf.svg": "/myportfolio/static/media/youtube.831b32cf.svg"
   },
@@ -39,6 +40,6 @@
     "static/js/runtime-main.be23bd41.js",
     "static/js/2.27079c18.chunk.js",
     "static/css/main.66890953.chunk.css",
-    "static/js/main.e564f977.chunk.js"
+    "static/js/main.f610b6d1.chunk.js"
   ]
 }
