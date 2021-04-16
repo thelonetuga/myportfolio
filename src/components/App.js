@@ -16,58 +16,45 @@ export default class App extends Component {
     return (
       <div>
         <main class="font-mono bg-cover bg-fixed bg-landing-image relative overflow-hidden h-screen">
-          <header class="sm:h-16 flex items-center z-30 w-full ">
-            <div class="container mx-auto px-6 flex items-center justify-between">
-              <div class="uppercase text-white font-black text-3xl flex items-center">
-                <span class="text-base ml-3 mt-1">Joao Marques</span>
-              </div>
-              <div class="flex items-center">
-                <nav class="font-sen text-white uppercase text-lg lg:flex items-center hidden">
-                  <a href="#" class="py-2 px-6 flex hover:text-blue-200">
-                    Home
-                  </a>
-                  <a href="#about" class="py-2 px-6 flex hover:text-blue-200">
-                    About
-                  </a>
-                  <a href="#skills" class="py-2 px-6 flex hover:text-blue-200">
-                    Skills
-                  </a>
-                  <a
-                    href="#projects"
-                    class="py-2 px-6 flex hover:text-blue-200"
-                  >
-                    Projects
-                  </a>
-                  <a
-                    href="#photography"
-                    class="py-2 px-6 flex hover:text-blue-200"
-                  >
-                    Photography
-                  </a>
-                </nav>
-                <button class="lg:hidden flex flex-col ml-4">
-                  <span class="w-6 h-1 bg-gray-800 mb-1"></span>
-                  <span class="w-6 h-1 bg-gray-800 mb-1"></span>
-                  <span class="w-6 h-1 bg-gray-800 mb-1"></span>
-                </button>
-              </div>
+          <header class="text-gray-600 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <span class="ml-3 text-xl text-blue-500">Joao Marques</span>
+              </a>
+              <nav class="md:ml-auto text-white flex flex-wrap items-center text-base justify-center">
+                <a class="mr-9 hover:text-blue-500" href="#home">
+                  Home
+                </a>
+                <a class="mr-9 hover:text-blue-500" href="#about">
+                  About
+                </a>
+                <a class="mr-9 hover:text-blue-500" href="#skills">
+                  SKills
+                </a>
+                <a class="mr-9 hover:text-blue-500" href="#projects">
+                  Projects
+                </a>
+                <a class="mr-9 hover:text-blue-500" href="#photography">
+                  Photography
+                </a>
+              </nav>
             </div>
           </header>
-          <div class="flex h-full  relative z-20 items-center">
-            <div class="container   mx-auto px-6 flex flex-col justify-between items-center relative py-4 ">
+          <div class="flex h-full  relative z-20 ">
+            <div class="container mb-16 mx-auto px-6 flex flex-col justify-center  relative py-4 ">
               <div class="flex flex-col w-full">
                 <p class="text-3xl my-6 text-center text-white">
                   Hi, I&#x27;m Joao Marques 🤘
                 </p>
-                <div class="h-24 p-4">
+                <div class="h-24 p-4 hidden md:block">
                   <h2
                     id="hobbiesText"
-                    class="max-w-3xl text-5xl md:text-6xl font-bold mx-auto text-white text-center py-2"
+                    class=" max-w-3xl  none text-5xl md:text-6xl font-bold mx-auto text-blue-500 text-center py-2"
                   ></h2>
                 </div>
                 <div class="w-full flex items-center justify-evenly mt-4 p-6">
                   <a
-                    class="text-white"
+                    class="text-white "
                     href="https://www.facebook.com/joao1marques/"
                   >
                     <svg
@@ -75,7 +62,7 @@ export default class App extends Component {
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       stroke-width="2"
-                      class="w-8 h-8"
+                      class="w-8 h-8 transition-transform transform hover:scale-150"
                       viewBox="0 0 24 24"
                     >
                       <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
@@ -90,7 +77,7 @@ export default class App extends Component {
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       stroke-width="2"
-                      class="w-8 h-8"
+                      class="w-8 h-8 transition-transform transform hover:scale-150"
                       viewBox="0 0 24 24"
                     >
                       <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
@@ -106,7 +93,7 @@ export default class App extends Component {
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       stroke-width="2"
-                      class="w-8 h-8"
+                      class="w-8 h-8 transition-transform transform hover:scale-150"
                       viewBox="0 0 24 24"
                     >
                       <rect
@@ -130,7 +117,7 @@ export default class App extends Component {
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       stroke-width="0"
-                      class="w-8 h-8"
+                      class="w-8 h-8 transition-transform transform hover:scale-150"
                       viewBox="0 0 24 24"
                     >
                       <path
@@ -141,10 +128,13 @@ export default class App extends Component {
                     </svg>
                   </a>
                   <a
-                    class="ml-3 text-black"
+                    class="ml-3"
                     href="https://www.youtube.com/channel/UCE4H4OvpcgXA-Lmw409Cg8A"
                   >
-                    <img src={ytIcon} class="square-full w h-8 mx-auto" />
+                    <img
+                      src={ytIcon}
+                      class="square-full w h-8 mx-auto transition-transform transform hover:scale-150"
+                    />
                   </a>
                 </div>
               </div>
