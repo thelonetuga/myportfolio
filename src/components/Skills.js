@@ -10,10 +10,10 @@ import tailwindcss from './images/tailwindcss.svg';
 export default class Skills extends Component {
   render() {
     return (
-      <section id="skills" class="text-gray-600 body-font">
+      <section id="skills" class="text-gray-600 body-font bg-indigo-blue">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
               Technologies I've worked with
             </h1>
           </div>
@@ -21,23 +21,23 @@ export default class Skills extends Component {
             <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div class="border-gray-200 px-4 py-6 rounded-lg">
                 <img src={vueIcon} class="square-full w-28 h-28 mx-auto" />
-                <h2 class="p-2 title-font font-medium text-3xl text-gray-900">
-                  VUE JS
+                <h2 class="p-2 title-font font-medium text-xl text-indigo-orange">
+                  Vue JS
                 </h2>
               </div>
             </div>
             <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div class="border-gray-200 px-4 py-6 rounded-lg">
                 <img src={reactIcon} class="square-full w-28 h-28 mx-auto" />
-                <h2 class="p-2 title-font font-medium text-3xl text-gray-900">
-                  REACT JS
+                <h2 class="p-2 title-font font-medium text-xl text-indigo-orange">
+                  React JS
                 </h2>
               </div>
             </div>
             <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div class="border-gray-200 px-4 py-6 rounded-lg">
                 <img src={cIcon} class="square-full w-28 h-28 mx-auto" />
-                <h2 class="p-2 title-font font-medium text-3xl text-gray-900">
+                <h2 class="p-2 title-font font-medium text-xl text-indigo-orange">
                   C#
                 </h2>
               </div>
@@ -45,15 +45,15 @@ export default class Skills extends Component {
             <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div class="border-gray-200 px-4 py-6 rounded-lg">
                 <img src={outsystems} class="rounded-full w-28 h-28 mx-auto" />
-                <h2 class="p-2 title-font font-medium text-3xl text-gray-900">
-                  OUTSYSTEMS
+                <h2 class="p-2 title-font font-medium text-xl text-indigo-orange">
+                  OutSystems
                 </h2>
               </div>
             </div>
             <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div class="border-gray-200 px-4 py-6 rounded-lg">
                 <img src={laravel} class="square-full w-28 h-28 mx-auto" />
-                <h2 class="p-2 title-font font-medium text-3xl text-gray-900">
+                <h2 class="p-2 title-font font-medium text-xl text-indigo-orange">
                   Laravel
                 </h2>
               </div>
@@ -61,7 +61,7 @@ export default class Skills extends Component {
             <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div class="border-gray-200 px-4 py-6 rounded-lg">
                 <img src={java} class="square-full w-28 h-28 mx-auto" />
-                <h2 class="p-2 title-font font-medium text-3xl text-gray-900">
+                <h2 class="p-2 title-font font-medium text-xl text-indigo-orange">
                   Java
                 </h2>
               </div>
@@ -69,7 +69,7 @@ export default class Skills extends Component {
             <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div class="border-gray-200 px-4 py-6 rounded-lg">
                 <img src={tailwindcss} class="square-full w-28 h-28 mx-auto" />
-                <h2 class="p-2 title-font font-medium text-3xl text-gray-900">
+                <h2 class="p-2 title-font font-medium text-xl text-indigo-orange">
                   Tailwindcss
                 </h2>
               </div>

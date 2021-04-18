@@ -5,7 +5,7 @@ export default class Footer extends Component {
   render() {
     return (
       <div>
-        <footer class="text-gray-600 body-font">
+        <footer class="text-gray-600 body-font bg-indigo-blue">
           <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
             <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
               <span class="ml-3 text-xl">Joao Marques</span>
@@ -14,7 +14,7 @@ export default class Footer extends Component {
               © 2021 —
               <a
                 href="https://twitter.com/joaomarquescode"
-                class="text-gray-600 ml-1"
+                class="text-indigo-orange ml-1"
                 rel="noopener noreferrer"
                 target="_blank"
               >

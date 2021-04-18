@@ -11,16 +11,16 @@ import Photo8 from './images/photography/8.jpg';
 export default class Photography extends Component {
   render() {
     return (
-      <section id="photography" class="text-gray-600 body-font">
+      <section id="photography" class="text-gray-600 body-font bg-indigo-blue">
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
           <div class="flex flex-wrap w-full mb-20">
             <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">
                 My Photography
               </h1>
-              <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+              <div class="h-1 w-20 bg-indigo-orange rounded"></div>
             </div>
-            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">
+            <p class="lg:w-1/2 w-full leading-relaxed text-indigo-orange text-lg">
               Here I show my work as an amateur photographer.
             </p>
           </div>

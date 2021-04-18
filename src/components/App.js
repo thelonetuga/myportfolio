@@ -19,22 +19,22 @@ export default class App extends Component {
           <header class="text-gray-600 body-font">
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
               <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                <span class="ml-3 text-xl text-blue-500">Joao Marques</span>
+                <span class="ml-3 text-xl text-indigo-orange">Joao Marques</span>
               </a>
               <nav class="md:ml-auto text-white flex flex-wrap items-center text-base justify-center">
-                <a class="mr-9 hover:text-blue-500" href="#home">
+                <a class="mr-9 hover:text-indigo-orange" href="#home">
                   Home
                 </a>
-                <a class="mr-9 hover:text-blue-500" href="#about">
+                <a class="mr-9 hover:text-indigo-orange" href="#about">
                   About
                 </a>
-                <a class="mr-9 hover:text-blue-500" href="#skills">
+                <a class="mr-9 hover:text-indigo-orange" href="#skills">
                   SKills
                 </a>
-                <a class="mr-9 hover:text-blue-500" href="#projects">
+                <a class="mr-9 hover:text-indigo-orange" href="#projects">
                   Projects
                 </a>
-                <a class="mr-9 hover:text-blue-500" href="#photography">
+                <a class="mr-9 hover:text-indigo-orange" href="#photography">
                   Photography
                 </a>
               </nav>
@@ -49,7 +49,7 @@ export default class App extends Component {
                 <div class="h-24 p-4 hidden md:block">
                   <h2
                     id="hobbiesText"
-                    class=" max-w-3xl  none text-5xl md:text-6xl font-bold mx-auto text-blue-500 text-center py-2"
+                    class=" max-w-3xl  none text-5xl md:text-6xl font-bold mx-auto text-indigo-orange text-center py-2"
                   ></h2>
                 </div>
                 <div class="w-full flex items-center justify-evenly mt-4 p-6">
