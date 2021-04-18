@@ -28,7 +28,7 @@ export default class Projects extends Component {
               href="https://github.com/vidalocapt/projeto"
               class="xl:w-1/4 md:w-1/2 p-4"
             >
-              <div class="bg-gray-100 p-6 rounded-lg">
+              <div class=" p-6 rounded-lg">
                 <img
                   class="h-40 rounded w-full object-cover object-center mb-6"
                   src={img_resturantManager}
@@ -49,7 +49,7 @@ export default class Projects extends Component {
               href="https://github.com/vidalocapt/Projeto-Ainet"
               class="xl:w-1/4 md:w-1/2 p-4"
             >
-              <div class="bg-gray-100 p-6 rounded-lg">
+              <div class=" p-6 rounded-lg">
                 <img
                   class="h-40 rounded w-full object-cover object-center mb-6"
                   src={img_financialManager}
@@ -70,7 +70,7 @@ export default class Projects extends Component {
               href="https://github.com/vidalocapt/IAProject"
               class="xl:w-1/4 md:w-1/2 p-4"
             >
-              <div class="bg-gray-100 p-6 rounded-lg">
+              <div class=" p-6 rounded-lg">
                 <img
                   class="h-40 rounded w-full object-cover object-center mb-6"
                   src={img_snakeGame}
@@ -91,7 +91,7 @@ export default class Projects extends Component {
               href="https://github.com/vidalocapt/Taes_ParkingCarApp"
               class="xl:w-1/4 md:w-1/2 p-4"
             >
-              <div class="bg-gray-100 p-6 rounded-lg">
+              <div class=" p-6 rounded-lg">
                 <img
                   class="h-40 rounded w-full object-cover object-center mb-6"
                   src={img_carParking}
@@ -112,7 +112,7 @@ export default class Projects extends Component {
               href="https://github.com/vidalocapt/ProjectDAE"
               class="xl:w-1/4 md:w-1/2 p-4"
             >
-              <div class="bg-gray-100 p-6 rounded-lg">
+              <div class=" p-6 rounded-lg">
                 <img
                   class="h-40 rounded w-full object-cover object-center mb-6"
                   src={img_softwareManager}
@@ -133,7 +133,7 @@ export default class Projects extends Component {
               href="https://github.com/vidalocapt/smartBrainApp"
               class="xl:w-1/4 md:w-1/2 p-4"
             >
-              <div class="bg-gray-100 p-6 rounded-lg">
+              <div class=" p-6 rounded-lg">
                 <img
                   class="h-40 rounded w-full object-cover object-center mb-6"
                   src={img_faceRecognition}

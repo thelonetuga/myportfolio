@@ -8,7 +8,7 @@ export default class App extends Component {
     init(hobbiesText, {
       showCursor: false,
       loop: true,
-      strings: ['Developer', 'Photographer', 'Content Creator.']
+      strings: ['Software Developer', 'Photographer', 'Content Creator.']
     });
   }
 
