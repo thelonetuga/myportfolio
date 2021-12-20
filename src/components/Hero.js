@@ -20,7 +20,7 @@ function Hero() {
             My name is João Marques and I'm from Tomar, Portugal. Currently, I
             have completed my bachelor's degree in computer engineering at
             Leiria's University. Currently I am an Outsystems Developer working
-            for Deloitte Portugal. My goals are to be a full stack/Android
+            for FindMore Consulting. My goals are to be a full stack/Android
             developer because those are the fields I like the most. I'm also
             really excited about artificial intelligence as I think it is the
             future. Nowadays, technology is changing at an astonishing pace, so
