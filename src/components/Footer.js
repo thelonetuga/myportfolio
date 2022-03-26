@@ -13,18 +13,18 @@ export default class Footer extends Component {
             <p class="text-sm text-black sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
               © 2021 —
               <a
-                href="https://twitter.com/joaomarquescode"
+                href="https://twitter.com/thelonetuga/"
                 class="text-indigo-orange ml-1"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                @joao1marques
+                @thelonetuga
               </a>
             </p>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
               <a
                 class="text-black"
-                href="https://www.facebook.com/joao1marques/"
+                href="https://www.facebook.com/thelonetuga/"
               >
                 <svg
                   fill="currentColor"
@@ -39,7 +39,7 @@ export default class Footer extends Component {
               </a>
               <a
                 class="ml-3 text-black"
-                href="https://twitter.com/joaomarquescode"
+                href="https://twitter.com/thelonetuga/"
               >
                 <svg
                   fill="currentColor"
@@ -54,7 +54,7 @@ export default class Footer extends Component {
               </a>
               <a
                 class="ml-3 text-black"
-                href="https://www.instagram.com/joao1marques/"
+                href="https://www.instagram.com/thelonetuga/"
               >
                 <svg
                   fill="none"
@@ -71,7 +71,7 @@ export default class Footer extends Component {
               </a>
               <a
                 class="ml-3 text-black"
-                href="https://www.linkedin.com/in/eckocode/"
+                href="https://www.linkedin.com/in/joaohmarques/"
               >
                 <svg
                   fill="currentColor"

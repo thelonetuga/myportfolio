@@ -109,7 +109,7 @@ export default class App extends Component {
                   </a>
                   <a
                     class="ml-3 text-white"
-                    href="https://www.linkedin.com/in/eckocode/"
+                    href="https://www.linkedin.com/in/joaohmarques/"
                   >
                     <svg
                       fill="currentColor"
